@@ -1,0 +1,26 @@
+﻿{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configura Gramps HA",
+        "description": "Connetti alla tua istanza Gramps Web",
+        "data": {
+          "url": "URL",
+          "username": "Nome utente (opzionale)",
+          "password": "Password (opzionale)",
+          "num_birthdays": "Numero di compleanni (opzionale)",
+          "show_deathdays": "Mostra date di morte/commemorazioni",
+          "show_anniversaries": "Mostra anniversari di matrimonio"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Connessione fallita",
+      "invalid_url": "URL non valido",
+      "unknown": "Si è verificato un errore sconosciuto"
+    },
+    "abort": {
+      "already_configured": "Questa istanza Gramps Web è già configurata"
+    }
+  }
+}

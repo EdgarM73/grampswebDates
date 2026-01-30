@@ -1,0 +1,26 @@
+﻿{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Podesi Gramps HA",
+        "description": "Poveži se sa svojom Gramps Web instancom",
+        "data": {
+          "url": "URL",
+          "username": "Korisničko ime (opcionalno)",
+          "password": "Lozinka (opcionalno)",
+          "num_birthdays": "Broj rođendana (opcionalno)",
+          "show_deathdays": "Prikaži datume smrti/komemoracije",
+          "show_anniversaries": "Prikaži godišnjice braka"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Povezivanje nije uspjelo",
+      "invalid_url": "Nevažeći URL",
+      "unknown": "Došlo je do nepoznate greške"
+    },
+    "abort": {
+      "already_configured": "Ova Gramps Web instanca je već konfigurirana"
+    }
+  }
+}

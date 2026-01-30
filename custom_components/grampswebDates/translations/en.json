@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Gramps HA",
+        "description": "Connect to your Gramps Web instance",
+        "data": {
+          "url": "URL",
+          "username": "Username (optional)",
+          "password": "Password (optional)",
+          "num_birthdays": "Number of Birthdays (optional)",
+          "show_deathdays": "Show Deathdays/Memorial Dates",
+          "show_anniversaries": "Show Anniversaries"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Connection failed",
+      "invalid_url": "Invalid URL",
+      "unknown": "An unknown error occurred"
+    },
+    "abort": {
+      "already_configured": "This Gramps Web instance is already configured"
+    }
+  }
+}
